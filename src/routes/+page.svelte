@@ -5,7 +5,7 @@
 <div class="w-11/12 mx-auto grid grid-cols-2 place-items-center border-b-2 my-20">
 	<div class="my-4">
 		<h1 class="text-5xl font-bold text-zinc-800 my-4">
-			Welcome to Cricket Player Database Management System
+			Welcome to Cricket Player Database Management System.
 		</h1>
 		<p class="my-4">
 			Your one-stop solution for managing and analyzing cricket player data. Your one-stop solution
