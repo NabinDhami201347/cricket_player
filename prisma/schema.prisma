@@ -1,0 +1,22 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = "mysql://o669kd3xoka78evzsfkn:pscale_pw_dun4uFmFIAsenJl0ZAA3vDQx9qeyTBalROSHJ7WozYA@aws.connect.psdb.cloud/cricdb?sslaccept=strict"
+}
+
+// url      = "mysql://root:@localhost:3306/cricket_database"
+
+model User {
+  id       String @id @default(uuid())
+  email    String @unique
+  password String
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
