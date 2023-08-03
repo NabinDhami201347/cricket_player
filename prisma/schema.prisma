@@ -7,7 +7,7 @@ generator client {
 
 datasource db {
   provider = "mysql"
-  url      = "mysql://o669kd3xoka78evzsfkn:pscale_pw_dun4uFmFIAsenJl0ZAA3vDQx9qeyTBalROSHJ7WozYA@aws.connect.psdb.cloud/cricdb?sslaccept=strict"
+  url      = "mysql://ue0ndpzu8ladh9fv993p:pscale_pw_ycGAYwm41o5Lhz3vjdCMwUgkD8IwVabnMpD9tyLbu3W@aws.connect.psdb.cloud/cricdb?sslaccept=strict"
 }
 
 // url      = "mysql://root:@localhost:3306/cricket_database"
